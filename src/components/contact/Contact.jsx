@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Contact.scss";
 import emailjs from 'emailjs-com'
+import{ArrowUpward} from '@material-ui/icons'
 
 
 export default function Contact() {
@@ -63,8 +64,12 @@ return(
 
 <a className='col ' href="https://www.linkedin.com/in/muhammad-masum-miah-3082a7105/"><i class="fab fa-linkedin-in fa-2x"></i> </a>
 <a className='col 'href="https://github.com/mase2020"><i class="fab fa-github fa-2x"></i> </a>
+<a href="#intro">
+         <span><ArrowUpward/></span> 
+        </a>
 
 </div>
+
     </div>
     
   
