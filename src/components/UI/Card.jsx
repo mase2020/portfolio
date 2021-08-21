@@ -18,7 +18,7 @@ const CardPortfolio = (props) => {
       <div className='row'>
         <div className = 'col  '>
             <a href={props.code}><Button variant="primary" >Code</Button></a>
-    {!props.website.trim() === "" &&
+    {!props.website.trim() == "" &&
     <a className= 'mx-2'href={props.website}><Button variant="success">Website</Button></a>}
     </div>
     </div>
