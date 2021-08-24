@@ -105,14 +105,15 @@ export default function Portfolio() {
           </div>
           
         ))}
-        
+         <a style={{margin:'20px'}}  href="#contact">
+         <span  ><ArrowDownward className='svg_icons'/></span> 
+        </a>
       </div>
       </div>
+     
       </div>
    
-      <a href="#contact">
-         <span><ArrowDownward/></span> 
-        </a>
+    
 
     </div>
   );

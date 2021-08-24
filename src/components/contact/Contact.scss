@@ -1,16 +1,30 @@
+@import "../../global.scss";
 .contact{
-  margin-top:50px;
-  width:50%;
+  // // margin-top:50px;
+  // width:50%;
+  // background-color: rgb(98, 179, 216);
+  
+  .cont{
   background-image: url('https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2555&q=80');
   background-position: center;
   background-size:cover;
+  }
+
+ 
 }
-h1{
-  margin-top: 25px;
+h1 {
+    margin-top: 70px;
+    font-size: 50px;
+
+    @include mobile{
+      font-size: 20px;
+    }
+  }
   
-}
 form{
   margin: 25px 85px 75px 100px;
   
 }
-
+.svg_icons {
+  transform: scale(1.6);
+}

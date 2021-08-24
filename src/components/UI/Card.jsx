@@ -1,5 +1,6 @@
 
 import {Card,Button} from 'react-bootstrap'
+import {GitHub} from '@material-ui/icons';
 
 
 const CardPortfolio = (props) => {
@@ -7,8 +8,8 @@ const CardPortfolio = (props) => {
   return <div >
 
       
-    <Card style={{ width: '18rem', height:'29rem' }}>
-  <Card.Img style={{ width: '18rem', height:'15rem' }}variant="top" src={props.image} />
+    <Card style={{ width: '18rem', height:'25rem' }}>
+  <Card.Img style={{ width: '18rem', height:'13rem' }}variant="top" src={props.image} />
   <Card.Body>
     <Card.Title style={{color:'red'}}>{props.title}</Card.Title>
     <Card.Text>
@@ -17,7 +18,9 @@ const CardPortfolio = (props) => {
     <footer >
       <div className='row'>
         <div className = 'col  '>
-            <a href={props.code}><Button variant="primary" >Code</Button></a>
+        <a   href={props.code}><Button variant="primary" ><GitHub style={{fontSize: '18px',marginRight: '5px'}}/>GitHub </Button></a>
+      
+        
     {!props.website.trim() == "" &&
     <a className= 'mx-2'href={props.website}><Button variant="success">Website</Button></a>}
     </div>
