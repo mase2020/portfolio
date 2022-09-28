@@ -105,8 +105,8 @@ export default function Portfolio() {
           </div>
           
         ))}
-         <a style={{margin:'20px'}}  href="#contact">
-         <span  ><ArrowDownward className='svg_icons'/></span> 
+         <a   href="#contact">
+         <span  ><ArrowDownward style={{margin:'30px'}} className='svg_icons'/></span> 
         </a>
       </div>
       </div>

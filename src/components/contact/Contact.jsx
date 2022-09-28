@@ -60,10 +60,10 @@ return(
     <span  style={{marginTop:'30px', color:'green', fontSize:'2rem'}}>Thank you for your message. I'll try to reply ASAP. </span>
     </div>}
     <div className='row text-center' >
-          <div className="col" style={{marginBottom:'30px', padding:'8px'}}>
-          <a  style={{margin:'20px'}}  href="https://www.linkedin.com/in/muhammad-masum-miah-3082a7105/"><button className='btn btn-primary '><LinkedIn className="icon"/> LinkedIn</button> </a>
-          <span style={{margin:'20px'}} ><a target="_blank" href='assets/cv.pdf'> <button className='btn btn-danger '>Click for CV</button></a> </span>
-            <a style={{margin:'20px'}}  href="https://github.com/mase2020"><button className='btn btn-secondary'><GitHub className="icon"/> GitHub</button></a>
+          <div className="col my-3 d-flex align-items-stretch justify-content-center " style={{marginBottom:'30px', padding:'8px'}}>
+          <a  style={{margin:'8px'}}  href="https://www.linkedin.com/in/muhammad-masum-miah-3082a7105/"><button className='btn btn-primary '><LinkedIn className="icon"/> LinkedIn</button> </a>
+          <span style={{margin:'8px'}} ><a target="_blank" href='assets/cv.pdf'> <button className='btn btn-danger '>Click for CV</button></a> </span>
+            <a style={{margin:'8px'}}  href="https://github.com/mase2020"><button className='btn btn-secondary'><GitHub className="icon"/> GitHub</button></a>
     </div>
          
     <div className='text-center' style={{marginBottom:'30px', padding:'8px'}} >
